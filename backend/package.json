@@ -1,0 +1,43 @@
+{
+  "name": "book_doc_backend",
+  "description": "BookDoc App - A MERN stack application using TypeScript and Vite for the frontend.",
+  "author": "Hamdy Emad <hamdyyemad@aol.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdyyemad/book_doc.git"
+  },
+  "keywords": [
+    "MERN",
+    "TypeScript",
+    "Vite",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "bugs": {
+    "url": "https://github.com/hamdyyemad/book_doc/issues"
+  },
+  "homepage": "https://github.com/hamdyyemad/book_doc#",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.6.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.2",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
