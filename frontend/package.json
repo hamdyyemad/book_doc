@@ -1,0 +1,52 @@
+{
+  "name": "book_doc_frontend",
+  "private": false,
+  "version": "1.0.0",
+  "description": "BookDoc App - A MERN stack application using TypeScript and Vite for the frontend.",
+  "type": "module",
+  "author": "Hamdy Emad <hamdyyemad@aol.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdyyemad/book_doc.git"
+  },
+  "keywords": [
+    "MERN",
+    "TypeScript",
+    "Vite",
+    "React",
+    "Node.js",
+    "Express",
+    "MongoDB"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.9.0",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "globals": "^15.9.0",
+    "postcss": "^8.4.42",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.3",
+    "typescript-eslint": "^8.0.1",
+    "vite": "^5.4.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hamdyyemad/book_doc/issues"
+  },
+  "homepage": "https://github.com/hamdyyemad/book_doc#"
+}
